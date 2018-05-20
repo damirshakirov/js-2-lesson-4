@@ -1,4 +1,48 @@
 .task1 li {
   display: inline;
-  margin: 10px;
+  margin: -1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: darkolivegreen;
+  color: white;
+  padding: 10px;
+  border-top: 1px solid darkolivegreen;
+  border-left: 1px solid darkolivegreen;
+  border-right: 1px solid darkolivegreen;
 }
+
+li.active {
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid white;
+}
+
+.task1 li:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+li.active:hover {
+  cursor: auto;
+  background-color: white;
+}
+.task1_p {
+  margin-left: 39px;
+  width: 650px;
+  border-bottom: 1px solid darkolivegreen;
+  border-left: 1px solid darkolivegreen;
+  border-right: 1px solid darkolivegreen;
+  border-top: 1px solid darkolivegreen;
+  margin-top: -6px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  display: none;
+}
+
+p.pActive {
+  display: block;
+}
+
+
