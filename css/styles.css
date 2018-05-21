@@ -26,6 +26,7 @@ li.active:hover {
   cursor: auto;
   background-color: white;
 }
+
 .task1_p {
   margin-left: 39px;
   width: 650px;
@@ -45,4 +46,38 @@ p.pActive {
   display: block;
 }
 
+.task2__form {
+  width: 500px;
+  text-align: left;
+}
 
+.task2__form input {
+  width: 150px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.sendButton {
+  background-color: green;
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+
+.sendButton:hover {
+  background-color: white;
+  color: green;
+  border: solid 1px green;
+  transition: 0.2s;
+}
+
+#searchResult {
+  display: none;
+  width: 300px;
+}
