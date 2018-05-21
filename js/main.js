@@ -62,6 +62,7 @@ $(function () { //Загрузка JSON файла
   $.getJSON("js/cities.json", function (json) {
     console.log(json);
   });
+  
 
 
   $('#city').keyup(function () { // Проверка ввода с клавиатуры
